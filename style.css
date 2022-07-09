@@ -1,4 +1,4 @@
-/*
+
 #my_video {
   position: fixed;
   top: 50%;
@@ -10,15 +10,18 @@
   z-index: -100;
   transform: translate(-50%, -50%);
 }
-*/
+
 html {
+    /*
     background-image: url('wallhaven3.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
+    */
+    background-color: #f7eee4;
+    /*color: #c5c8c6;*/
     align-items: center;
-    /*background-color: #f7eee4;*/
-    color: #c5c8c6;
     display: flex;
     font: 16px/1 "Inconsolata", monospace;
     height: 100%;
@@ -31,7 +34,7 @@ html {
 
     background: #141414;
     border-radius: 0px;
-
+    opacity: 1;
     /*
     box-shadow: 15px 15px 5px #1d1f2187;
     */
